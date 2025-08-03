@@ -1,0 +1,42 @@
+body {
+  background-color: #fff3cd;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: #ffeeba;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  display: inline-block;
+}
+
+button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff4d4d;
+}
+
+.emoji {
+  position: absolute;
+  font-size: 2rem;
+  animation: float 2s ease-out forwards;
+}
+
+@keyframes float {
+  to {
+    transform: translateY(-200px) rotate(720deg);
+    opacity: 0;
+  }
+}
